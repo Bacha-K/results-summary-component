@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk";
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ECF2FF;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.Your_Results {
+    font-size: 24px; 
+    color: #CAC9FF; 
+    font-weight: 700; 
+    line-height: normal;
+    text-align: center;
+    margin-top: 8px;
+}
+.circle {
+    background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 18px;
+    flex-direction: column;
+}
+.number {
+    font-size: 72px; 
+    color: white; 
+    font-weight: 800;
+    line-height: 72px;
+    text-align: center;
+}
+.of_100 {
+    font-size: 18px; 
+    color: #CAC9FF; 
+    font-weight: 700; 
+    line-height: normal;
+    text-align: center;
+}
+.Great {
+    font-size: 32px; 
+    color: white; 
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+}
+.Paragrap {
+font-size: 18px;
+color: #CAC9FF;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+}
+.card {
+    width: 736px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    display: flex;
+}
+.left {
+background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+width: 50%;
+height: 100%;
+border-radius: 32px;
+font-size: 24p;
+padding: 38px 54px 46px 54px;
+}
+.right {
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 100%;
+    border-radius: 32px;
+    font-size: 24p;
+    justify-content: center;
+}
+.summary {  
+    font-size: 24px; 
+    color: #303B59; 
+    font-weight: 700; 
+    line-height: normal;
+    padding: 38px;
+}
+
+.box {
+    width: 288px;
+    height: 56px;
+    border-radius: 12px;
+    display: flex;
+    justify-items: center;
+    border: none;
+    outline: none;
+    margin: auto;
+}
+
+.red_box {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55;
+}
+
+.Icon1 {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    text-align: left;
+}
+.text {
+    font-size: 18px;
+    font-weight: 500;
+    margin: auto;
+    text-align: left; 
+}
+
+.Reaction {
+    color: #F55;
+ 
+}
+.number1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #303B59;
+    margin: auto;
+    text-align: right;
+
+}
+.yellow_box {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E;
+    margin-top: 16px;
+}
+.Icon2 {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    text-align: left;
+
+}
+
+.Memory {
+    color: #FFB21E;
+
+}
+.number2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #303B59;
+    margin: auto;
+    text-align: right; 
+}
+.green_box {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F;
+    margin-top: 16px;
+}
+.Icon3 {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    text-align: left;
+}
+
+.Verbal {
+    font-size: 18px;
+    font-weight: 500;
+    color: #00BB8F;
+    margin: auto;
+    text-align: left;
+}
+.number3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #303B59;
+    margin: auto;
+    text-align: right;
+}
+
+.blu_box {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6;
+    margin-top: 16px;
+}
+.Icon4 {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    text-align: left;
+}
+.Visual {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1125D6;
+    margin: auto;
+    text-align: left;
+}
+.number4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #303B59;
+    margin: auto;
+    text-align: right;
+}
+
+.pill {
+background-color: #303B59;
+width: 288px;
+height: 56px;
+border-radius: 128px;
+text-align: center;
+outline: none;
+cursor: pointer;
+margin: auto;
+color: #FFFFFF;
+font-size: 18px;
+font-weight: 700;
+border: none;
+margin-left: 41px;
+margin-top: 16px;
+}
+
+.pill:hover {
+    background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+}
